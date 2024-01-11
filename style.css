@@ -1,0 +1,98 @@
+
+#first-and-mid-line{
+    padding-left:50px;
+    padding-top:50px;
+    height: 70vh;
+}
+
+#first-line{
+    font-family: system-ui;
+}
+
+#mid-line{
+    text-align: end;
+}
+#mid-line > img{
+    cursor:pointer;
+}
+
+#last-line{
+    /* height: 100vh; */
+    padding: 66px;
+    background-color: pink;
+}
+#flex-box{
+    gap:22px;
+    position: relative;
+    top:-111px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 1500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.flex-items{
+    border-radius: 20px;
+    justify-content: center;
+    /* cursor: pointer; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:11px;
+    background-color: white;
+    width: 300px;
+    height:300px;
+    border:2px groove gray;
+}
+.flex-items:hover{
+    border:2px solid rgb(255, 168, 183);
+}
+.flex-items>img{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+}
+.flex-items>button{
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width:150px;
+    background-color: antiquewhite;
+    cursor:pointer;
+}
+.flex-items>button:hover{
+    background-color: blanchedalmond;
+}
+#for-continue{
+    display: flex;
+    justify-content: end;
+}
+
+#the-button{
+    padding:20px;
+    cursor:pointer;
+    justify-content: end;
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-family: sans-serif;
+    margin-right: 16px;
+}
+
+#the-button>span{
+    display: inline-block;
+    /* border: 2px solid; */
+    /* height: px; */
+    /* width: 100%; */
+}
+#the-button>img{
+    height: 30px;
+}
+body{
+    
+    margin:0;
+}
